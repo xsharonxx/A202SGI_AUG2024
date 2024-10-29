@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_green">#005047</color>
+    <color name="white">#F7FAF8</color>
+    <color name="light_green">#CDE8E1</color>
+
+    <color name="entry_wait_input">#819A96</color>
+    <color name="entry_focus">#06201C</color>
+    <color name="input">#334B47</color>
+    <color name='error_input'>#E82929</color>
+
+    <color name='nav_selected'>#334B47</color>
+    <color name='nav_not_selected'>#819A96</color>
+
+    <color name='disable_button'>#9CA09F</color>
+
+</resources>

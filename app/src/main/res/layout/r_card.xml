@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/business_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="start|center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/null_profile_image" />
+
+                <TextView
+                    android:id="@+id/request_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nav_not_selected"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/request_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nav_not_selected"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+                <TextView
+                    android:id="@+id/request_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nav_selected"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="start">
+
+                    <TextView
+                        android:id="@+id/business_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/nav_selected"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/verified"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginStart="5dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/business_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nav_not_selected"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/business_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nav_not_selected"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/business_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nav_not_selected"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center|start">
+
+                    <TextView
+                        android:id="@+id/business_doc_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/business_proof"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:textColor="@color/nav_not_selected"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+
+                    <ImageButton
+                        android:id="@+id/business_doc_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/file"
+                        android:background="@color/white"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center|start"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/owner_doc_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/owner_proof"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:textColor="@color/nav_not_selected"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+
+                    <ImageButton
+                        android:id="@+id/owner_doc_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/file"
+                        android:background="@color/white"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="end">
+
+                <TextView
+                    android:id="@+id/acceptRejectDatetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nav_not_selected"
+                    android:gravity="end"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/accept_button"
+                    style="@style/small_small_green_button"
+                    android:text="@string/accept"
+                    android:visibility="visible"/>
+
+                <Button
+                    android:id="@+id/reject_button"
+                    style="@style/small_small_green_button"
+                    android:backgroundTint="@color/error_input"
+                    android:text="@string/reject"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/nav_not_selected"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

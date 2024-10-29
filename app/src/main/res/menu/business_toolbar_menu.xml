@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/create_bill_icon"
+        android:icon="@drawable/nav_create_bill"
+        android:title="@string/create_bill"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/manage_products_icon"
+        android:icon="@drawable/nav_manage_products"
+        android:title="@string/manage_products"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/sales_report_icon"
+        android:icon="@drawable/nav_sales_report"
+        android:title="@string/sales_report"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+
+</menu>
