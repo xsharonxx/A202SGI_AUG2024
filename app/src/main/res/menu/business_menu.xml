@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/create_bill"
+            android:icon="@drawable/nav_create_bill"
+            android:title="@string/create_bill"
+            />
+        <item
+            android:id="@+id/manage_products"
+            android:icon="@drawable/nav_manage_products"
+            android:title="@string/manage_products"
+            />
+        <item
+            android:id="@+id/sales_report"
+            android:icon="@drawable/nav_sales_report"
+            android:title="@string/sales_report"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/nav_logout"
+            android:title="@string/logout"
+            />
+
+    </group>
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/sellers"
+            android:icon="@drawable/nav_sellers"
+            android:title="@string/sellers"
+            />
+        <item
+            android:id="@+id/bill_history"
+            android:icon="@drawable/nav_bill_history"
+            android:title="@string/bill_history"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/nav_logout"
+            android:title="@string/logout"
+            />
+
+    </group>
+
+</menu>

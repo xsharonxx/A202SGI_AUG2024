@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name='standard_entry' parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name='boxBackgroundColor'>@color/light_green</item>
+        <item name='boxStrokeColor'>@color/entry_focus</item>
+        <item name='hintTextColor'>@color/entry_wait_input</item>
+        <item name='errorTextColor'>@color/error_input</item>
+        <item name='errorIconDrawable'>@null</item>
+    </style>
+
+    <style name='standard_entry_with_dropdown' parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name='boxBackgroundColor'>@color/light_green</item>
+        <item name='boxStrokeColor'>@color/entry_focus</item>
+        <item name='hintTextColor'>@color/entry_wait_input</item>
+        <item name='errorTextColor'>@color/error_input</item>
+        <item name='errorIconDrawable'>@null</item>
+        <item name='endIconMode'>dropdown_menu</item>
+        <item name='endIconTint'>@color/teal_green</item>
+    </style>
+
+    <style name="white_button">
+        <item name='android:layout_width'>wrap_content</item>
+        <item name='android:layout_height'>wrap_content</item>
+        <item name='android:backgroundTint'>@color/white</item>
+        <item name='android:paddingLeft'>40dp</item>
+        <item name='android:paddingTop'>10dp</item>
+        <item name='android:paddingRight'>40dp</item>
+        <item name='android:paddingBottom'>10dp</item>
+        <item name='android:textColor'>@color/teal_green</item>
+        <item name='android:textSize'>20sp</item>
+        <item name='android:textStyle'>bold</item>
+    </style>
+
+    <style name="small_white_button">
+        <item name='android:layout_width'>wrap_content</item>
+        <item name='android:layout_height'>wrap_content</item>
+        <item name='android:backgroundTint'>@color/white</item>
+        <item name='android:paddingLeft'>5dp</item>
+        <item name='android:paddingTop'>10dp</item>
+        <item name='android:paddingRight'>5dp</item>
+        <item name='android:paddingBottom'>10dp</item>
+        <item name='android:textColor'>@color/teal_green</item>
+        <item name='android:textSize'>16sp</item>
+        <item name='android:textStyle'>bold</item>
+    </style>
+
+    <style name="custom_date_picker" parent='Theme.MaterialComponents.DayNight.Dialog'>
+        <item name='colorAccent'>@color/teal_green</item>
+    </style>
+
+    <style name="NavigationViewTextAppearance" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/nav_not_selected</item>
+    </style>
+
+    <style name="toolbarStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item> <!-- Set text color -->
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="bottom_green_button">
+        <item name='android:layout_width'>match_parent</item>
+        <item name='android:layout_height'>wrap_content</item>
+        <item name='android:backgroundTint'>@color/teal_green</item>
+        <item name='android:paddingTop'>15dp</item>
+        <item name='android:paddingBottom'>15dp</item>
+        <item name='android:layout_marginStart'>20dp</item>
+        <item name='android:layout_marginEnd'>20dp</item>
+        <item name='android:textColor'>@color/white</item>
+        <item name='android:textSize'>16sp</item>
+        <item name='android:textStyle'>bold</item>
+    </style>
+
+    <style name="small_green_button">
+        <item name='android:layout_width'>wrap_content</item>
+        <item name='android:layout_height'>wrap_content</item>
+        <item name='android:backgroundTint'>@color/teal_green</item>
+        <item name='android:paddingLeft'>5dp</item>
+        <item name='android:paddingTop'>10dp</item>
+        <item name='android:paddingRight'>5dp</item>
+        <item name='android:paddingBottom'>10dp</item>
+        <item name='android:textColor'>@color/white</item>
+        <item name='android:textSize'>16sp</item>
+        <item name='android:textStyle'>bold</item>
+    </style>
+
+    <style name="small_small_green_button">
+        <item name='android:layout_width'>wrap_content</item>
+        <item name='android:layout_height'>wrap_content</item>
+        <item name='android:backgroundTint'>@color/teal_green</item>
+        <item name='android:paddingTop'>5dp</item>
+        <item name='android:paddingBottom'>5dp</item>
+        <item name='android:textColor'>@color/white</item>
+        <item name='android:textSize'>12sp</item>
+        <item name='android:textStyle'>bold</item>
+    </style>
+</resources>

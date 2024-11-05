@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792242099045",
+    "project_id": "billsphere-6728f",
+    "storage_bucket": "billsphere-6728f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792242099045:android:8e64f42e094f723ced478c",
+        "android_client_info": {
+          "package_name": "com.example.billsphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7zWRpGtPeeei4mD21dlAJp4mH98qE0CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
